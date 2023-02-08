@@ -1,0 +1,27 @@
+## library() calls go here
+library(conflicted)
+library(dotenv)
+library(drake)
+library(Signac)
+library(Seurat)
+library(EnsDb.Hsapiens.v86)
+library(BSgenome.Hsapiens.UCSC.hg38)
+library(hdf5r)
+library(JASPAR2020)
+library(TFBSTools)
+library(harmony)
+library(ggthemes)
+library(ggplot2)
+library(Pando)
+library(doParallel)
+library(tidyverse)
+library(patchwork)
+library(SingleR)
+library(scRNAseq)
+library(scater)
+library(scProportionTest)
+library(cowplot)
+
+registerDoParallel(4)
+
+
